@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Presentación Personal - Guido Nocetti</title>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <div class="layout">
+      <div class="perfil">
+        <img src="Imagenes/GuidoPersonal.jpeg" alt="Foto de Guido Nocetti" />
+      </div>
+      <div class="contenido">
+        <header>
+          <h1>¡Hola soy Guido Nocetti!</h1>
+        </header>
+        <main>
+          <section id="sobre-mi">
+            <h2>Sobre Mí</h2>
+            <p>
+              Soy desarrollador web full stack apasionado por crear soluciones tecnológicas
+              útiles y actualmente trabajo en la municipalidad de goya como programador de app. Me encanta aprender y experimentar con nuevas
+              tecnologías, especialmente con .NET, Blazor, Maui, Api Swagger, Sql Server, Tokens Auth, etc.
+            </p>
+          </section>
+          <section id="tecnologias">
+            <h2>Mis Tecnologías Favoritas</h2>
+            <div class="tecnologias">
+              <div class="tecnologia-card">
+                <img src="Iconos/BlazorLogo.jpeg" width="100" alt="Blazor" />
+                <p>Blazor</p>
+              </div>
+              <div class="tecnologia-card">
+                <img src="Iconos/MauiLogo.jpeg" width="100" alt="MAUI" />
+                <p>MAUI</p>
+              </div>
+              <div class="tecnologia-card">
+                <img src="Iconos/SqlServerLogo.png" width="100" alt="SQL Server" />
+                <p>SQL Server</p>
+              </div>
+              <div class="tecnologia-card">
+                <img src="Iconos/SwaggerLogo.png" width="100" alt="Swagger API" />
+                <p>Swagger API</p>
+              </div>
+            </div>
+          </section>
+          <section id="actividades">
+            <h2>Mis Actividades Favoritas</h2>
+            <form class="form-actividad">
+              <input id="titulo" type="text" placeholder="Título" />
+              <input id="descripcion" type="text" placeholder="Descripción" />
+              <input id="imagen" type="text" placeholder="URL de imagen" />
+              <button type="button" id="agregar">Agregar Actividad</button>
+            </form>
+            <div class="actividades" id="contenedor-actividades"></div>
+          </section>
+        </main>
+      </div>
+    </div>
+    <script src="script/index.js"></script>
+  </body>
+</html>

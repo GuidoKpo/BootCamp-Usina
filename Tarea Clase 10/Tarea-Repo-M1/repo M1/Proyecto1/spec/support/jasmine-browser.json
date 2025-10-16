@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "srcDir": "src",
   "srcFiles": [
@@ -18,4 +19,26 @@
   "browser": {
     "name": "firefox"
   }
+=======
+{
+  "srcDir": "src",
+  "srcFiles": [
+    "**/*.js"
+  ],
+  "specDir": "spec",
+  "specFiles": [
+    "**/*[sS]pec.js"
+  ],
+  "helpers": [
+    "helpers/**/*.js"
+  ],
+  "env": {
+    "stopSpecOnExpectationFailure": false,
+    "stopOnSpecFailure": false,
+    "random": true
+  },
+  "browser": {
+    "name": "firefox"
+  }
+>>>>>>> 5b27ba2bafe398ed2a96cfec61aef8e6718b5b9c
 }

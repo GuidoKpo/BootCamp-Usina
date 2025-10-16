@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #titulo2{
     color: black;
     text-decoration: underline;
@@ -70,4 +71,78 @@ footer{
 }
 body{
     background-color: goldenrod;
+=======
+#titulo2{
+    color: black;
+    text-decoration: underline;
+}
+
+#titulo{
+    color: crimson;
+}
+
+.tituloh2{
+    color: darkgreen;
+}
+.tituloh2:hover{
+    font-size: 50px;
+}
+.contenedor-de-secciones{
+    background-color: rgb(20, 94, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.seccion-1{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     }
+.seccion-2{
+    background-color: chartreuse;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 55px;
+    
+}
+.seccion-2:hover{
+    background-color: red;
+    transition: 4s;
+    
+}
+
+
+h1, h2, p {
+    color: aquamarine;
+   
+}
+
+p{
+   color: aqua;
+}
+
+header {
+    background-color: chocolate;
+    width: 300px;
+    
+}
+main{
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+
+footer{
+    background-color: darkgreen;
+}
+body{
+    background-color: goldenrod;
+>>>>>>> 5b27ba2bafe398ed2a96cfec61aef8e6718b5b9c
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   font-family: 'Arial', sans-serif;
   background-color: #000000; /* Fondo negro */
@@ -52,3 +53,59 @@ li {
   margin-bottom: 5px;
   padding: 5px;
 }
+=======
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #000000; /* Fondo negro */
+  color: #fff;               /* Texto blanco base */
+  margin: 20px;
+}
+
+/* Estilo para los párrafos */
+p {
+  background-color: #1a1a1a; /* Fondo gris oscuro */
+  color: #ff6666;            /* Texto rojo claro */
+  padding: 10px;
+  border-left: 5px solid #ff0000; /* Barra roja a la izquierda */
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+/* Estilo para los divs */
+div {
+  background-color: #003366; /* Fondo azul oscuro */
+  color: #00ffff;            /* Texto cyan */
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 2px solid #00ffff; /* Borde cyan */
+  border-radius: 10px;
+}
+
+/* Estilo para listas desordenadas (ul) */
+ul {
+  background-color: #333300; /* Fondo verde oscuro */
+  color: #ffff00;            /* Texto amarillo */
+  padding: 15px;
+  padding-left: 30px;
+  border: 2px dashed #ffff00; /* Borde punteado amarillo */
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Estilo para listas ordenadas (ol) */
+ol {
+  background-color: #660033; /* Fondo burdeos */
+  color: #ff99ff;            /* Texto rosa claro */
+  padding: 15px;
+  padding-left: 30px;
+  border: 2px dotted #ff99ff; /* Borde punteado rosa */
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Estilo para los elementos de la lista */
+li {
+  margin-bottom: 5px;
+  padding: 5px;
+}
+>>>>>>> 5b27ba2bafe398ed2a96cfec61aef8e6718b5b9c

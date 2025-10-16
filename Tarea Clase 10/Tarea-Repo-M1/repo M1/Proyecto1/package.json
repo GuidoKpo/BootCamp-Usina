@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "m1",
   "version": "1.0.0",
@@ -19,3 +20,26 @@
     "jasmine-core": "^5.1.1"
   }
 }
+=======
+{
+  "name": "m1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine",
+    "start": "live-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^5.1.0",
+    "live-server": "^1.2.2"
+  },
+  "devDependencies": {
+    "jasmine-browser-runner": "^2.3.0",
+    "jasmine-core": "^5.1.1"
+  }
+}
+>>>>>>> 5b27ba2bafe398ed2a96cfec61aef8e6718b5b9c

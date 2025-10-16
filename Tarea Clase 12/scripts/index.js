@@ -1,3 +1,5 @@
+import { Repository } from "./repository.js";
+
 const repo = new Repository();
 
 const btnAgregar = document.getElementById("agregar");
@@ -13,7 +15,7 @@ btnAgregar.addEventListener("click", () => {
     return;
   }
 
-    const id = Date.now(); 
+  const id = Date.now();
   repo.createActivity(id, titulo, descripcion, imagen);
 
   const card = document.createElement("div");
